@@ -1,14 +1,14 @@
 //
-//  TDDExpUITests.swift
+//  FizzBuzzUITests.swift
 //  TDDExpUITests
 //
-//  Created by Carlos Arenas on 3/14/18.
+//  Created by Carlos Arenas on 3/16/18.
 //  Copyright © 2018 Carlos Arenas. All rights reserved.
 //
 
 import XCTest
 
-class TDDExpUITests: XCTestCase {
+class FizzBuzzUITests: XCTestCase {
         
     override func setUp() {
         super.setUp()
@@ -28,9 +28,6 @@ class TDDExpUITests: XCTestCase {
         super.tearDown()
     }
     
-    func testExample() {
-        // Use recording to get started writing UI tests.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
-    }
+    
     
 }
