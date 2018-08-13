@@ -14,6 +14,7 @@
 		23A7B1A02121F30400C37667 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23A7B19E2121F30400C37667 /* LaunchScreen.storyboard */; };
 		23A7B1B62121F30400C37667 /* FizzBuzzTDDUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23A7B1B52121F30400C37667 /* FizzBuzzTDDUITests.swift */; };
 		23A7B1C42121F3DF00C37667 /* BrainTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23A7B1C32121F3DF00C37667 /* BrainTests.swift */; };
+		23A7B1C62121F6DB00C37667 /* Brain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23A7B1C52121F6DB00C37667 /* Brain.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		23A7B1B52121F30400C37667 /* FizzBuzzTDDUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FizzBuzzTDDUITests.swift; sourceTree = "<group>"; };
 		23A7B1B72121F30400C37667 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		23A7B1C32121F3DF00C37667 /* BrainTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrainTests.swift; sourceTree = "<group>"; };
+		23A7B1C52121F6DB00C37667 /* Brain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Brain.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +99,11 @@
 		23A7B1942121F30300C37667 /* FizzBuzzTDD */ = {
 			isa = PBXGroup;
 			children = (
-				23A7B1952121F30300C37667 /* AppDelegate.swift */,
+				23A7B1C72121F7B400C37667 /* Supporting Files */,
 				23A7B1972121F30300C37667 /* ViewController.swift */,
 				23A7B1992121F30300C37667 /* Main.storyboard */,
-				23A7B19C2121F30400C37667 /* Assets.xcassets */,
-				23A7B19E2121F30400C37667 /* LaunchScreen.storyboard */,
 				23A7B1A12121F30400C37667 /* Info.plist */,
+				23A7B1C52121F6DB00C37667 /* Brain.swift */,
 			);
 			path = FizzBuzzTDD;
 			sourceTree = "<group>";
@@ -123,6 +124,16 @@
 				23A7B1B72121F30400C37667 /* Info.plist */,
 			);
 			path = FizzBuzzTDDUITests;
+			sourceTree = "<group>";
+		};
+		23A7B1C72121F7B400C37667 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				23A7B1952121F30300C37667 /* AppDelegate.swift */,
+				23A7B19C2121F30400C37667 /* Assets.xcassets */,
+				23A7B19E2121F30400C37667 /* LaunchScreen.storyboard */,
+			);
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,6 +269,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				23A7B1982121F30300C37667 /* ViewController.swift in Sources */,
+				23A7B1C62121F6DB00C37667 /* Brain.swift in Sources */,
 				23A7B1962121F30300C37667 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

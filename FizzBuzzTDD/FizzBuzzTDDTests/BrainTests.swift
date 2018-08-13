@@ -7,6 +7,7 @@
 //
 
 import XCTest
+@testable import FizzBuzzTDD
 
 class BrainTests: XCTestCase {
     
@@ -22,14 +23,9 @@ class BrainTests: XCTestCase {
         super.tearDown()
     }
     
-    func testExample() {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
-    }
-    
     func testIsDivisibleBuThree() {
         let brain = Brain()
-        let result = brain.isDivisibleByThree(numnber: 3)
+        let result = brain.isDivisibleByThree(number: 3)
         // Compares the result of the test to the expected result (in this case, true). It is expected that when asked to the 'brain' to check if
         // 3 is divisible by 3, it will responde that is true.
         XCTAssertEqual(result, true)
