@@ -17,3 +17,5 @@ TDD (Test Driven Development) is a way of writing software. At its core is a sim
 An important part of TDD is learning to love failing  tests and warnings. The aim is to let these warning guide us to what code need to write next.
 
 It's important to run the tests, and see them failing. Otherwise when writing the code to get the test passing, we can't know if we are getting a false positive.
+
+Only write code needed to get the tests passing -- nothing more.

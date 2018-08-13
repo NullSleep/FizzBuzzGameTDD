@@ -30,4 +30,10 @@ class BrainTests: XCTestCase {
         // 3 is divisible by 3, it will responde that is true.
         XCTAssertEqual(result, true)
     }
+    
+    // In ordert to extend the functionality of the isDivisibleByThree method, it is needed to test the opposite case: Checking the a number is NOT
+    // divisible by 3
+    func testIsNotDivisibleByThree() {
+        
+    }
 }
