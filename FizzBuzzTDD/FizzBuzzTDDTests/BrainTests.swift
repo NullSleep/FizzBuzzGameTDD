@@ -25,8 +25,9 @@ class BrainTests: XCTestCase {
         super.tearDown()
     }
     
+    // Fizz (divisible by 3)
     func testIsDivisibleByThree() {
-        let result = brain.isNumberDivisibleBy(number: 3, divisibleBy: 3)
+        let result = brain.isDivisibleByThree(number: 3)
         // Compares the result of the test to the expected result (in this case, true). It is expected that when asked to the 'brain' to check if
         // 3 is divisible by 3, it will responde that is true.
         XCTAssertEqual(result, true)
@@ -35,27 +36,29 @@ class BrainTests: XCTestCase {
     // In ordert to extend the functionality of the isDivisibleByThree method, it is needed to test the opposite case: Checking the a number is
     // NOT divisible by 3
     func testIsNotDivisibleByThree() {
-        let result = brain.isNumberDivisibleBy(number: 1, divisibleBy: 3)
+        let result = brain.isDivisibleByThree(number: 1)
         XCTAssertEqual(result, false)
     }
     
+    // Buzz (divisible by 5)
     func testIsDivisibleByFive() {
-        let result = brain.isNumberDivisibleBy(number: 25, divisibleBy: 5)
+        let result = brain.isDivisibleByFive(number: 25)
         XCTAssertEqual(result, true)
     }
     
     func testIsNotDivisibleByFive() {
-        let result = brain.isNumberDivisibleBy(number: 3, divisibleBy: 5)
+        let result = brain.isDivisibleByFive(number: 3)
         XCTAssertEqual(result, false)
     }
     
+    // FizzBuzz (divisible by 3 and 5 (or 15))
     func testIsDivisibleByFifteen() {
-        let result = brain.isNumberDivisibleBy(number:30, divisibleBy: 15)
+        let result = brain.isDivisibleByFifteen(number:30)
         XCTAssertEqual(result, true)
     }
-    
+
     func testIsNotDivisibleByFifteen() {
-        let result = brain.isNumberDivisibleBy(number: 10, divisibleBy: 15)
+        let result = brain.isDivisibleByFifteen(number: 10)
         XCTAssertEqual(result, false)
     }
 }

@@ -12,8 +12,20 @@ class Brain {
     
     // MARK: - Public functions
     
-    func isNumberDivisibleBy(number: Int, divisibleBy: Int) -> Bool {
-        if number % divisibleBy == 0 {
+    func isDivisibleByThree(number: Int) -> Bool {
+        return isDivisibleBy(number: number, divisor: 3)
+    }
+    
+    func isDivisibleByFive(number: Int) -> Bool {
+        return isDivisibleBy(number: number, divisor: 5)
+    }
+    
+    func isDivisibleByFifteen(number: Int) -> Bool {
+        return isDivisibleBy(number: number, divisor: 15)
+    }
+    
+    func isDivisibleBy(number: Int, divisor: Int) -> Bool {
+        if number % divisor == 0 {
             return true
         }
         return false
