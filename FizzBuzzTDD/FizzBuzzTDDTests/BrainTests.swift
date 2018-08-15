@@ -11,6 +11,8 @@ import XCTest
 
 class BrainTests: XCTestCase {
     
+     let brain = Brain()
+    
     // Prepares the test. Runs everyime for each test.
     override func setUp() {
         super.setUp()
@@ -24,8 +26,7 @@ class BrainTests: XCTestCase {
     }
     
     func testIsDivisibleByThree() {
-        let brain = Brain()
-        let result = brain.isDivisibleByThree(number: 3)
+        let result = brain.isNumberDivisibleBy(number: 3, divisibleBy: 3)
         // Compares the result of the test to the expected result (in this case, true). It is expected that when asked to the 'brain' to check if
         // 3 is divisible by 3, it will responde that is true.
         XCTAssertEqual(result, true)
@@ -34,20 +35,27 @@ class BrainTests: XCTestCase {
     // In ordert to extend the functionality of the isDivisibleByThree method, it is needed to test the opposite case: Checking the a number is
     // NOT divisible by 3
     func testIsNotDivisibleByThree() {
-        let brain = Brain()
-        let result = brain.isDivisibleByThree(number: 1)
+        let result = brain.isNumberDivisibleBy(number: 1, divisibleBy: 3)
         XCTAssertEqual(result, false)
     }
     
     func testIsDivisibleByFive() {
-        let brain = Brain()
-        let result = brain.isDivisibleByFive(number: 25)
+        let result = brain.isNumberDivisibleBy(number: 25, divisibleBy: 5)
         XCTAssertEqual(result, true)
     }
     
     func testIsNotDivisibleByFive() {
-        let brain = Brain()
-        let result = brain.isDivisibleByFive(number: 3)
+        let result = brain.isNumberDivisibleBy(number: 3, divisibleBy: 5)
+        XCTAssertEqual(result, false)
+    }
+    
+    func testIsDivisibleByFifteen() {
+        let result = brain.isNumberDivisibleBy(number:30, divisibleBy: 15)
+        XCTAssertEqual(result, true)
+    }
+    
+    func testIsNotDivisibleByFifteen() {
+        let result = brain.isNumberDivisibleBy(number: 10, divisibleBy: 15)
         XCTAssertEqual(result, false)
     }
 }
