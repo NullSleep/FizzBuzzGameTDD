@@ -23,7 +23,7 @@ class BrainTests: XCTestCase {
         super.tearDown()
     }
     
-    func testIsDivisibleBuThree() {
+    func testIsDivisibleByThree() {
         let brain = Brain()
         let result = brain.isDivisibleByThree(number: 3)
         // Compares the result of the test to the expected result (in this case, true). It is expected that when asked to the 'brain' to check if
@@ -36,6 +36,18 @@ class BrainTests: XCTestCase {
     func testIsNotDivisibleByThree() {
         let brain = Brain()
         let result = brain.isDivisibleByThree(number: 1)
+        XCTAssertEqual(result, false)
+    }
+    
+    func testIsDivisibleByFive() {
+        let brain = Brain()
+        let result = brain.isDivisibleByFive(number: 25)
+        XCTAssertEqual(result, true)
+    }
+    
+    func testIsNotDivisibleByFive() {
+        let brain = Brain()
+        let result = brain.isDivisibleByFive(number: 3)
         XCTAssertEqual(result, false)
     }
 }

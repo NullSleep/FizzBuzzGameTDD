@@ -9,7 +9,20 @@
 import Foundation
 
 class Brain {
+    
+    // MARK: - Public functions
+    
     func isDivisibleByThree(number: Int) -> Bool {
-        return true
+        if number % 3 == 0 {
+            return true
+        }
+        return false
+    }
+    
+    func isDivisibleByFive(number: Int) -> Bool {
+        if number % 5 == 0 {
+            return true
+        }
+        return false
     }
 }
