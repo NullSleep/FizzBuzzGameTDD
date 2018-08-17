@@ -25,9 +25,6 @@ class Brain {
     }
     
     func isDivisibleBy(number: Int, divisor: Int) -> Bool {
-        if number % divisor == 0 {
-            return true
-        }
-        return false
+        return number % divisor == 0
     }
 }

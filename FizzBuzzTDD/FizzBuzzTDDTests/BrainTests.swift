@@ -33,7 +33,7 @@ class BrainTests: XCTestCase {
         XCTAssertEqual(result, true)
     }
     
-    // In ordert to extend the functionality of the isDivisibleByThree method, it is needed to test the opposite case: Checking the a number is
+    // In order to extend the functionality of the isDivisibleByThree method, we needed to test the opposite case: Checking the number is
     // NOT divisible by 3
     func testIsNotDivisibleByThree() {
         let result = brain.isDivisibleByThree(number: 1)

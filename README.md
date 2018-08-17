@@ -19,3 +19,9 @@ An important part of TDD is learning to love failing  tests and warnings. The ai
 It's important to run the tests, and see them failing. Otherwise when writing the code to get the test passing, we can't know if we are getting a false positive.
 
 Only write code needed to get the tests passing -- nothing more. If the current tests don't cover all the functionality that you want from the function, class or app the answer is simple: Write more tests.
+
+The 4 stages in a TDD cycle:
+1. RED: Write a test, and watch it fail.
+2. GREEN: Write just enough code to make your test pass.
+3. REFACTOR: Clean up existing code.
+4. Repeat the cycle until you have an app.
