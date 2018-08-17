@@ -27,4 +27,11 @@ class Brain {
     func isDivisibleBy(number: Int, divisor: Int) -> Bool {
         return number % divisor == 0
     }
+    
+    func check(number: Int) -> String {
+        if number == 5 {
+            return "Buzz"
+        }
+        return "Fizz"
+    }
 }
