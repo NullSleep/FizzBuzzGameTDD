@@ -79,4 +79,10 @@ class BrainTests: XCTestCase {
         let result = brain.check(number: 15)
         XCTAssertEqual(result, "FizzBuzz")
     }
+    
+    // Testing the brain for a number that is neither fizz, buzz or fizzBuzz
+    func testNotFizzBuzzNumbers() {
+        let result = brain.check(number: 1)
+        XCTAssertEqual(result, "1")
+    }
 }
