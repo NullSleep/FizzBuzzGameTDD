@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		23093A19212D306D00113F6D /* GameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23093A18212D306D00113F6D /* GameTests.swift */; };
 		23A7B1962121F30300C37667 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23A7B1952121F30300C37667 /* AppDelegate.swift */; };
 		23A7B1982121F30300C37667 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23A7B1972121F30300C37667 /* ViewController.swift */; };
 		23A7B19B2121F30300C37667 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23A7B1992121F30300C37667 /* Main.storyboard */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		23093A18212D306D00113F6D /* GameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameTests.swift; sourceTree = "<group>"; };
 		23A7B1922121F30300C37667 /* FizzBuzzTDD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FizzBuzzTDD.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		23A7B1952121F30300C37667 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		23A7B1972121F30300C37667 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -122,6 +124,7 @@
 			children = (
 				23A7B1B52121F30400C37667 /* FizzBuzzTDDUITests.swift */,
 				23A7B1B72121F30400C37667 /* Info.plist */,
+				23093A18212D306D00113F6D /* GameTests.swift */,
 			);
 			path = FizzBuzzTDDUITests;
 			sourceTree = "<group>";
@@ -287,6 +290,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				23A7B1B62121F30400C37667 /* FizzBuzzTDDUITests.swift in Sources */,
+				23093A19212D306D00113F6D /* GameTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
