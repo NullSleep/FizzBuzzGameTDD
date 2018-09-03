@@ -80,6 +80,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		237C606A213CF0CA0079A375 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				23A7B1C52121F6DB00C37667 /* Brain.swift */,
+				23093A1A212D30D300113F6D /* Game.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		237C606B213CF1030079A375 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				23A7B1992121F30300C37667 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		237C606C213CF1150079A375 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				23A7B1972121F30300C37667 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 		23A7B1892121F30300C37667 = {
 			isa = PBXGroup;
 			children = (
@@ -103,12 +128,11 @@
 		23A7B1942121F30300C37667 /* FizzBuzzTDD */ = {
 			isa = PBXGroup;
 			children = (
+				237C606A213CF0CA0079A375 /* Model */,
+				237C606B213CF1030079A375 /* View */,
+				237C606C213CF1150079A375 /* Controller */,
 				23A7B1C72121F7B400C37667 /* Supporting Files */,
-				23A7B1972121F30300C37667 /* ViewController.swift */,
-				23A7B1992121F30300C37667 /* Main.storyboard */,
 				23A7B1A12121F30400C37667 /* Info.plist */,
-				23A7B1C52121F6DB00C37667 /* Brain.swift */,
-				23093A1A212D30D300113F6D /* Game.swift */,
 			);
 			path = FizzBuzzTDD;
 			sourceTree = "<group>";
