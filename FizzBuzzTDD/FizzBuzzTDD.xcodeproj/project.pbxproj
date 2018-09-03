@@ -144,8 +144,8 @@
 			children = (
 				23A7B1C32121F3DF00C37667 /* BrainTests.swift */,
 				23093A18212D306D00113F6D /* GameTests.swift */,
-				23A7B1AC2121F30400C37667 /* Info.plist */,
 				237C606D213CF67D0079A375 /* ViewControllerUnitTests.swift */,
+				23A7B1AC2121F30400C37667 /* Info.plist */,
 			);
 			path = FizzBuzzTDDTests;
 			sourceTree = "<group>";
