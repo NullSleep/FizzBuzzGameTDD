@@ -8,6 +8,8 @@
 
 import Foundation
 
+// Checks if a number is divisible by 3, 5, 15 and returna its respective string.
+
 class Brain {
     
     // MARK: - Public functions
@@ -41,4 +43,5 @@ class Brain {
             return "\(number)"
         }
     }
+    
 }

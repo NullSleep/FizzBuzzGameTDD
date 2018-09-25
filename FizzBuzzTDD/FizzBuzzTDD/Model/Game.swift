@@ -8,6 +8,8 @@
 
 import Foundation
 
+// The game itself. Makes plays with moves passed as string and checks agains the brain if the move is valid.
+
 class Game {
     var score: Int
     let brain: Brain
